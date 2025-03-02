@@ -2,6 +2,8 @@
 
 The following Havoc Module allows the operator to run a command on all connected agents, which could prove useful when searching for something, running post-exploitation on a number of hosts and/or downloading files on all compromised hosts at once.
 
+More details and example use cases are showcased in the following [blogpost](https://fyx.me/articles/creating-a-havoc-module-to-run-commands-on-all-agents-at-once-and-map-out-an-environment-passively/). 
+
 > [!WARNING]
 > There is an issue with some of the automatically imported Havoc bof which causes the client to crash under certain conditions. For example running `runall noconsolation` will crash the client. To fix it you need to import the modules yourself. Copy them from your havoc installation directory, rename the command and import the `.py` script.
 > _This is not something I have control over, however from the code updates I've seen, it should be fixed in the Havoc re-write version._
